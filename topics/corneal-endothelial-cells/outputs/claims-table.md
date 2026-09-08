@@ -51,9 +51,9 @@ Order follows the verified-records table in
 
 > **Claim 1.** A method for treatment of a corneal endothelial dysfunction caused by increased intraocular pressure, comprising (i) identifying a subject currently suffering from the corneal endothelial dysfunction and (ii) administering an effective amount of a Rho kinase inhibitor to an eye of the subject to treat the corneal endothelial dysfunction in the eye of the subject.
 
-**Scope fit:** Culture/expansion-method family — as issued, claim 1 itself is a Rho-kinase-inhibitor treatment method rather than a cell-culture step; see note below.
+**Scope fit:** Cell therapy / treatment method (reclassified 2026-09-08 — see note below) and culture/expansion-method family by specification context.
 
-**Note (screening flag):** As actually claimed, independent claim 1 is directed to administering a Rho-kinase inhibitor to treat corneal endothelial dysfunction generally (a small-molecule treatment-method claim), not explicitly to a cell-culture/expansion step or a cultured-cell composition. The specification/dependent claims tie this to promoting adhesion of cultured corneal endothelial cells for transplantation, and this is a direct continuation of the culture/adhesion-promotion family cited in the source record — but the verbatim independent claim, read on its own, sits closer to a treatment-method claim than a pure culture-method claim. Retained in the table (title-level scope call not overturned, since the broader family and specification are culture/adhesion-focused) but flagged for a sanity check on how narrowly to construe "culture/expansion method."
+**Note (screening flag, resolved 2026-09-08):** As actually claimed, independent claim 1 is directed to administering a Rho-kinase inhibitor to treat corneal endothelial dysfunction generally (a small-molecule treatment-method claim), not explicitly to a cell-culture/expansion step or a cultured-cell composition. Per requester review, this claim is reclassified primarily under the cell-therapy/treatment-method inclusion criterion rather than culture/expansion method, while noting the broader family (title, specification, and dependent claims) ties to promoting adhesion of cultured corneal endothelial cells for transplantation.
 
 ---
 
