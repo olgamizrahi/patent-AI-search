@@ -13,11 +13,17 @@ Corneal endothelial cell technology, focused on:
 - Culture/expansion methods: in vitro culture, expansion, and
   differentiation methods and media for corneal endothelial cells,
   including cells derived from donor corneal tissue or iPSCs.
+- Biomarker/molecular characterization methods: RNA-seq, gene-expression,
+  and other molecular marker (surface marker, protein marker) methods for
+  identifying, classifying, sorting, or quality-grading corneal
+  endothelial cells (e.g. distinguishing "therapy-grade" cultured cells
+  from non-functional/fibroblastic cells), added to scope 2026-09-08 per
+  user request.
 
 Explicitly out of scope (see Exclusion criteria) unless the user later
-expands scope: corneal endothelial keratoplasty devices/instruments,
-scaffolds/carriers, and diagnostics/biomarkers not tied to a cell therapy
-or culture method.
+expands scope: corneal endothelial keratoplasty devices/instruments and
+scaffolds/carriers not tied to a cell therapy, culture, or
+biomarker/characterization method.
 
 ## Jurisdictions
 US, EP, and WO (PCT international applications). Family members in other
@@ -42,17 +48,23 @@ can't be verified, flag and exclude per anti-fabrication rules.
 - Independent claims directed to a method or composition for culturing,
   expanding, or differentiating corneal endothelial cells (from donor
   tissue or iPSCs) for therapeutic or research use.
+- Independent claims directed to an RNA-seq/gene-expression, surface
+  marker, or other molecular method for identifying, classifying,
+  sorting, or quality-grading corneal endothelial cells (including for
+  selecting cells for therapeutic use).
 - US, EP, or WO patents/applications with verifiable bibliographic and
   legal-status data.
 
 ## Exclusion criteria
 - Pure device/instrument claims for corneal transplant surgery (e.g.
-  DMEK/DSEK insertion devices) with no cell-therapy or culture-method
-  claim content.
-- Scaffold/carrier-only claims with no cell culture or cell therapy
-  claim content.
-- Diagnostic or biomarker-only claims unrelated to cell therapy or
-  culture methods.
+  DMEK/DSEK insertion devices) with no cell-therapy, culture-method, or
+  biomarker/characterization claim content.
+- Scaffold/carrier-only claims with no cell culture, cell therapy, or
+  biomarker/characterization claim content.
+- Diagnostic/biomarker claims unrelated to corneal endothelial cells
+  (e.g. general corneal disease diagnostics not tied to endothelial cell
+  identity/quality) or unrelated to cell therapy, culture, or
+  characterization of corneal endothelial cells.
 - Records where bibliographic or legal-status data cannot be verified
   from an authoritative source.
 - Anything published/filed before 2016 or after the current date.
