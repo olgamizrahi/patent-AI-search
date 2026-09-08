@@ -6,7 +6,12 @@ patents.google.com, Espacenet, and WIPO PatentScope were all blocked/503
 in this environment) on 2026-09-08, per
 [`patent-scope.md`](../patent-scope.md).
 
-## Verified in-scope records (14)
+An additional pass on 2026-09-08 covered the biomarker/RNA-seq/molecular-
+characterization inclusion criterion added to scope that day. In this
+second pass, direct WebFetch to patents.google.com succeeded (no proxy
+needed) for all records checked.
+
+## Verified in-scope records (17)
 
 | Number | Title | Assignee | Status | Jurisdiction | File |
 |---|---|---|---|---|---|
@@ -24,6 +29,9 @@ in this environment) on 2026-09-08, per
 | US10908161B2 | Corneal endothelial cell marker (FLAGGED — dual diagnostic/therapeutic, see file) | Kyoto PUC / Actualeyes / CorneaGen / Aurion Biotech | Active | US | [US-10908161-B2.md](US-10908161-B2.md) |
 | US20190083543A1 | Human functional corneal endothelial cell and application thereof | Kyoto PUC | Pending | US | [US-2019-0083543-A1.md](US-2019-0083543-A1.md) |
 | US12350294B2 | Medium for producing corneal endothelial substitute cells from iPS cells | Keio University | Active | US | [US-12350294-B2.md](US-12350294-B2.md) |
+| US20260124250A1 | Methods for selecting cultured corneal endothelial cells (biomarker/ML classification) | Universiteit Maastricht / Academisch Ziekenhuis Maastricht | Pending | US | [US-2026-0124250-A1.md](US-2026-0124250-A1.md) |
+| EP4655392A2 | Methods for selecting cultured corneal endothelial cells (biomarker/ML classification) | Universiteit Maastricht / Academisch Ziekenhuis Maastricht | Pending | EP | [EP-4655392-A2.md](EP-4655392-A2.md) |
+| US10655102B2 | Identification and isolation of human corneal endothelial cells (HCECs) — surface-marker affinity selection | Emmetrope Ophthalmics LLC | Active | US | [US-10655102-B2.md](US-10655102-B2.md) |
 
 ## Excluded / flagged candidates
 
@@ -32,8 +40,10 @@ in this environment) on 2026-09-08, per
 | US10959997B2 — Combined agent for cell therapy of corneal endothelial cell (Kyoto PUC / Doshisha / Senju) | **Legal status: Expired - Fee Related** (verified on Google Patents). Excluded per scope's legal-status filter. |
 | EP3862424A1 — Method and vessel for preserving corneal endothelial cells (Doshisha) | **Legal status: Withdrawn** (verified on Google Patents). Excluded per legal-status filter. Its active US counterpart (US11445723B2, same family/inventors) is included instead. |
 | EP3069732B1 — Drug for treating corneal endothelium by promoting cell proliferation or inhibiting cell damage (Doshisha) | **Out of technology scope**: claims are directed to a small-molecule drug (p38 MAP kinase inhibitor, e.g. SB203580) as an eye-drop/injection therapeutic, not a cell-therapy product or a cell culture/expansion method. Culturing is mentioned only as research methodology, not claimed. Excluded per inclusion criteria. |
-| WO2024158290A2 — Methods for selecting cultured corneal endothelial cells (Universiteit Maastricht / Academisch Ziekenhuis Maastricht) | **Flagged for scope decision, not included.** Independent claims are biomarker/gene-expression- and surface-marker-based methods (CGNL1, VMO1, THBS2, APP, CD166/CD56/CD44/CD10, FACS/immunomagnetic sorting, ML classification) for classifying cultured cells as "therapy-grade" — sits on the boundary between the culture-method inclusion criterion and the diagnostic/biomarker-only exclusion criterion. Additionally, the WO-level legal status shown ("Ceased") could not be cleanly resolved to an in-force national/regional phase entry within this search pass. Recommend a scope decision before including in claims extraction. |
-| US10655102B2 — Identification and isolation of human corneal endothelial cells (HCECs) | **Could not verify bibliographic/legal-status data.** The fetched page content for this record returned only gene/protein sequence listings, not the assignee, dates, or legal-status fields — could not confirm from an authoritative source per anti-fabrication rules. Description available suggests a diagnostic/marker-identification method, which would also be borderline against the diagnostic-only exclusion criterion. Excluded. |
+| WO2024158290A2 — Methods for selecting cultured corneal endothelial cells (Universiteit Maastricht / Academisch Ziekenhuis Maastricht) | **RESOLVED 2026-09-08: superseded by national-phase members, not independently included.** Scope was expanded 2026-09-08 to explicitly include biomarker/RNA-seq/molecular-characterization methods, resolving the earlier scope-boundary flag — this family fits the new inclusion criterion directly (CGNL1, VMO1, THBS2, APP, CD166/CD56/CD44/CD10 markers; FACS/immunomagnetic sorting; ML classification of "therapy-grade" cultured cells). WO-level legal status is "Ceased" (normal once national phase is entered, per the same pattern used for other WO records in this list). Verified national/regional-phase members US20260124250A1 (Pending) and EP4655392A2 (Pending) are included instead. |
+| US20160266114A1 — Corneal endothelial cell marker (Kyoto PUC / Actualeyes / CorneaGen / Aurion Biotech) | **Duplicate family** — same inventors and priority date (2013-07-30) as the already-included US10908161B2 ("Corneal endothelial cell marker"); same core CD166-normal/CD73-transformed marker claims. Not independently added to avoid duplicating a family already represented in the verified list. |
+| US12072334B2 — Corneal endothelial cell marker (Kyoto PUC / Actualeyes / CorneaGen / Aurion Biotech / Senju / Doshisha) | **Duplicate family** — continuation in the same family as the already-included US10908161B2 (same priority date 2013-07-30, same CD166/CD73 marker claims). Active/granted but not independently added; the family is already represented in the verified list. |
+| WO2017141926A1 — Cellule endothéliale cornéenne fonctionnelle humaine et application associée (Human functional corneal endothelial cell and application thereof) | **Duplicate family** — WO counterpart of already-included US20190083543A1 (same title/technology, Kyoto PUC). Superseded by that verified US member. |
 | US9248125B2 — Agent for promoting corneal endothelial cell adhesion (Senju) | **Date-range edge case.** Filed 2008-08-28, priority 2007-08-29 — well before scope window. Grant/publication date (2016-02-02) falls barely within the 2016-present window (~1 month in). Substantively this is a pre-2016 invention; excluded as a stretch call. The later continuation covering the same technology, US20230210864A1 (filed & published 2023), is included instead and captures this family within clear scope. |
 | WO2016067628A1 — Novel treatment of cornea using laminin (Senju / Doshisha / Kyoto PUC) | **Superseded by national-phase members**, not independently included. WO-level status shows "Ceased" (normal once national phase is entered). Granted, verified national members US11633477B2 and EP3213762B1 are included instead. |
 | WO2023085369A1 — Cryopreservation preparation for corneal endothelial cells (Doshisha / Actualeyes) | **Superseded by national/regional-phase members**, not independently included. WO-level status shows "Ceased". Verified members US20250000083A1 (pending) and EP4431596A4 (pending) are included instead. |
